@@ -18,16 +18,19 @@
     <ClCompile Include="world.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="world.iface.hello.ixx">
+    <ClCompile Include="world.hello.impl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="world.impl.hello.ixx">
+    <ClCompile Include="world.hello.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="world.detail.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="world.goodbye.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

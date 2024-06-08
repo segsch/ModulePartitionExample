@@ -1,3 +1,4 @@
 export module world;
 
-export import : iface.hello;
+export import : hello;
+export import : goodbye;

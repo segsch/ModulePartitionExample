@@ -1,5 +1,11 @@
 import world;
 
 int main() {
-	SayHello();
+	world::SayHello();
+
+	world::SayHi();
+
+	world::ByeBye();
+
+	world::SaySomething();
 }

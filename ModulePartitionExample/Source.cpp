@@ -1,4 +1,4 @@
-export module world : impl.hello;
+module world : impl.hello;
 import : detail;
 
 void SayHello()

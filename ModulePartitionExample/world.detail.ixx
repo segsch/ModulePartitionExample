@@ -1,6 +1,10 @@
 export module world : detail;
+import <cstdlib>;
 import <iostream>;
 
-export void DoAction(const char* msg) {
-	std::cout << msg << std::endl;
-}
+struct Random { // Not exported - used internally
+	void SaySomething() const {
+		std::cout << "Bla bla: " << rand() << std::endl;
+	}
+};
+
